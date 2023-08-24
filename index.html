@@ -8,7 +8,9 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: lightblue;
+            background-image: helix.jpg; /* Set the path to your image */
+            background-size: cover; /* Resize the background image to cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent image repetition */
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,25 +20,8 @@
             position: relative;
         }
         
-        body::before,
-        body::after {
-            content: "★";
-            color: #f4f4f4;
-            font-size: 200px;
-            position: absolute;
-            top: 20%; /* Adjusted vertical position */
-        }
-        
-        body::before {
-            left: 10%; /* Adjusted left position */
-        }
-        
-        body::after {
-            right: 8%; /* Adjusted right position */
-        }
-        
         .container {
-            background-color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background for content */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -60,11 +45,7 @@
 <body>
     <div class="container">
         <h1>Opprtna Therapeutics</h1>
-        <p>Coming soon....</p>
+        <p>Coming Soon</p>
     </div>
 </body>
 </html>
-
-</body>
-</html>
-
