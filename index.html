@@ -15,25 +15,24 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            position: relative; /* Added for positioning pseudo-elements */
+            position: relative;
         }
         
         body::before,
         body::after {
-            content: "★"; /* Unicode character for a star */
+            content: "★";
             color: #f4f4f4;
             font-size: 200px;
             position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
+            top: 20%; /* Adjusted vertical position */
         }
         
         body::before {
-            left: 10%;
+            left: 10%; /* Adjusted left position */
         }
         
         body::after {
-            right: 10%;
+            right: 20%; /* Adjusted right position */
         }
         
         .container {
@@ -41,28 +40,27 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            position: relative; /* Added for stacking context */
-            z-index: 1; /* Added to ensure the stars are in the background */
+            position: relative;
+            z-index: 1;
         }
         
         h1 {
             color: #333333;
-            font-size: 100px;
+            font-size: 72px;
             font-style: italic;
         }
         
         p {
             color: #666666;
-            font-size: 60px;
-            margin-top: 50px;
+            font-size: 48px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Opprtna Therapeutics</h1>
-        <p>Coming soon....</p>
+        <p>Coming Soon</p>
     </div>
 </body>
 </html>
-
