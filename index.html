@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opprtna Therapeutics - Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,19 +21,20 @@
         
         body::before,
         body::after {
-            content: "★";
+            content: "\f471"; /* Font Awesome icon for DNA helix */
+            font-family: "Font Awesome 5 Free";
             color: #f4f4f4;
-            font-size: 200px;
+            font-size: 100px;
             position: absolute;
-            top: 20%; /* Adjusted vertical position */
+            top: 20%;
         }
         
         body::before {
-            left: 10%; /* Adjusted left position */
+            left: 10%;
         }
         
         body::after {
-            right: 8%; /* Adjusted right position */
+            right: 8%;
         }
         
         .container {
@@ -64,3 +66,4 @@
     </div>
 </body>
 </html>
+
