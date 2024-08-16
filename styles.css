@@ -77,14 +77,15 @@ nav li {
 }
 
 .hero img {
-  max-width: 50%;
-  height: auto;
-  margin-right: 0.5rem;
+    max-width: 50%; 
+    height: auto;
+    margin-right: 1rem;  /* Adjust the margin to reduce the gap */
+    transform: scale(0.5); 
 }
 
 .hero-text {
-  text-align: left;
-  padding-left: 1rem; /* Add padding to create space around the text */
+    text-align: left;
+    padding-left: 1rem; /* Add padding to create space around the text */
 }
 
 .button {
